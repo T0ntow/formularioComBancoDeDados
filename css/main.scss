@@ -30,7 +30,7 @@ body{
         }
     }
     form {
-        width: 25vw;
+        width: 30%;
         border-radius: 10px;
         background-color: rgb(206, 206, 206);
     }
@@ -119,3 +119,25 @@ body{
         }
     }
 }
+
+@media screen and (max-width: 1200px) {
+    .box{
+        form{
+         width: 45%;
+        }
+    }
+}
+@media screen and (max-width: 800px) {
+    .box{
+        form{
+         width: 55%;
+        }
+    }
+ }
+ @media screen and (max-width: 580px) {
+    .box{
+        form{
+         width: 85%;
+        }
+    }
+ }
