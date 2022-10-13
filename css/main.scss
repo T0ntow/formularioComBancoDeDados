@@ -6,18 +6,20 @@
 h1 {
     text-align: center;
     margin: 30px 0;
+    letter-spacing: 3px;
+    color: #1d04ff;
 }
 body{
-    background-color: #d8d0ff;
+    background: radial-gradient(circle, rgba(18, 58, 255, 0.664) 0%, rgba(116, 198, 245, 0.521) 100%);
 }
 .box {
     display: flex;
-
     justify-content: center;
     align-items: center;
 
     fieldset {
-        border: 3px solid dodgerblue;
+        border: 4px solid #3e4af5d0;
+        border-radius: 5px;
         margin: 15px;
         padding: 5px;
 
@@ -29,8 +31,8 @@ body{
     }
     form {
         width: 25vw;
-
-        background-color: rgba(111, 98, 223, 0.863);
+        border-radius: 10px;
+        background-color: rgb(206, 206, 206);
     }
 
     .inputUser{
@@ -38,7 +40,7 @@ body{
         background-color: rgba(255, 0, 0, 0);
 
         border: 0;
-        border-bottom: 2px solid lightgrey;
+        border-bottom: 2px solid rgb(43, 43, 43);
         outline: none;
         font-size: 16px;
         transition: all 0.3s ease-out;
@@ -47,7 +49,7 @@ body{
         border-radius: 0;
     }
     .inputUser:focus {
-        border-bottom: 2px solid #3951b2;
+        border-bottom: 3px solid #667dff;
     }
     .labelInput {
         position: absolute;
@@ -64,9 +66,10 @@ body{
     {
         top: -10px;
         left: 0;
-        text-shadow: 0px 0px 12px rgba(255, 255, 255, 1);
+        text-shadow: 0px 0px 12px rgba(38, 94, 247, 0.623);
         font-size: 1rem;
-        color: #ffffff;
+        color: #1423ffef;
+        font-weight: bolder;
     }
 
     .inputBox {
@@ -75,6 +78,23 @@ body{
     }
     p {
         font-size: 1.2rem;
+    }
+    input[type=submit]{
+        background: radial-gradient(circle, #123affa9 0%, #74c6f585 100%);
+
+        border-radius: 5px;
+        height: 30px;
+        width: 50%;
+        font-size: 1.2rem;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+        color: rgb(0, 0, 0);
+    }
+    legend{
+        color: #123affa9;
+        letter-spacing: 4px;
     }
     #sexoBox {
         display: flex;
