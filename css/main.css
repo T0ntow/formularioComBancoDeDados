@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  margin: 30px 0;
+}
+
+body {
+  background-color: #d8d0ff;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box fieldset {
+  border: 3px solid dodgerblue;
+  margin: 15px;
+  padding: 5px;
+}
+.box fieldset legend {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 5px 0;
+}
+.box form {
+  width: 25vw;
+  background-color: rgba(111, 98, 223, 0.863);
+}
+.box .inputUser {
+  width: 100%;
+  background-color: rgba(255, 0, 0, 0);
+  border: 0;
+  border-bottom: 2px solid lightgrey;
+  outline: none;
+  font-size: 16px;
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  border-radius: 0;
+}
+.box .inputUser:focus {
+  border-bottom: 2px solid #3951b2;
+}
+.box .labelInput {
+  position: absolute;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  left: 0;
+  pointer-events: none;
+  -webkit-transition: all 0.3s ease-out;
+  margin: 0 0 20px 0;
+}
+.box .inputUser:focus ~ .labelInput,
+.box .inputUser:valid ~ .labelInput {
+  top: -10px;
+  left: 0;
+  text-shadow: 0px 0px 12px rgb(255, 255, 255);
+  font-size: 1rem;
+  color: #ffffff;
+}
+.box .inputBox {
+  position: relative;
+  padding: 15px 0;
+}
+.box p {
+  font-size: 1.2rem;
+}
+.box #sexoBox {
+  display: flex;
+  flex-direction: row;
+  left: 0;
+  text-align: center;
+  width: 90%;
+  font-size: 1.2rem;
+}
+.box #nascimentoBox {
+  display: flex;
+  flex-direction: row;
+  left: 0;
+  text-align: center;
+  padding: 20px 0;
+  width: 100%;
+  font-size: 1.2rem;
+}
+.box #nascimentoBox input {
+  text-align: center;
+  font-size: 1.2rem;
+}/*# sourceMappingURL=main.css.map */
